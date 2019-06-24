@@ -1,0 +1,31 @@
+12 oscin
+13 oscout
+14 nrst
+
+29 dacout1
+30 dacout2
+
+52 spi2sck
+53 spi2miso
+54 spi2mosi
+
+19 vssa
+20 vref-
+21 vref+
+22 vdda
+
+72 swdio
+76 swclk
+
+vss
+10
+27
+49
+74
+99
+vdd
+11
+28
+50
+75
+100

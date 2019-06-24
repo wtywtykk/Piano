@@ -1,0 +1,11 @@
+*.crf
+*.o
+*.d
+*.htm
+/JLinkLog.txt
+/Note/.vs
+/Note/Debug
+/Note/ipch
+/Note/Note/Debug
+*.sdf
+/Note/Note.VC.db

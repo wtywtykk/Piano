@@ -1,0 +1,28 @@
+--cpu Cortex-M3
+".\composer.o"
+".\delay.o"
+".\lcd.o"
+".\main.o"
+".\scriptphase.o"
+".\stm32f10x_it.o"
+".\systick.o"
+".\specialkeyscan.o"
+".\keyscan.o"
+".\keydisp.o"
+".\voldisp.o"
+".\auto.o"
+".\menu.o"
+".\wavesel.o"
+".\misc.o"
+".\stm32f10x_dac.o"
+".\stm32f10x_dma.o"
+".\stm32f10x_gpio.o"
+".\stm32f10x_rcc.o"
+".\stm32f10x_spi.o"
+".\stm32f10x_tim.o"
+".\startup_stm32f10x_hd.o"
+".\system_stm32f10x.o"
+--library_type=microlib --strict --scatter ".\Piano.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Piano.map" -o .\Piano.axf
